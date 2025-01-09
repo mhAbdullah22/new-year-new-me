@@ -6,14 +6,20 @@ body{
 
 /* styles header */
 header{
+  padding:0px 40px;
+}
+
+.hero{
   background:linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Banner Image.png');
 
    background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 600px;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
+  
   flex-direction: column;
   
 }
@@ -32,7 +38,7 @@ header{
   text-align: center;
 }
 /* new year styles */
-section{
+.newyear-section{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,12 +46,41 @@ section{
   padding-top: 40px;
   padding-bottom: 40px;
 }
-section>div>h1{
+.discount-title{
   font-size: 45px;
   color:#FF0000;
+  text-align: center;
 }
 .newyear-img{
   border-style:dashed;
   border-width: 1px;
 }
-
+/* items styles */
+.section-container{
+  padding:40px;
+}
+.items-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:10px;
+}
+.item{
+  width: 370px;
+  height: 300px;
+}
+.gift-title{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap:0px;
+  margin-left: 150px;
+}
+.portfolio-title{
+  color:rgb(172, 41, 41);
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
