@@ -1,0 +1,33 @@
+/* shared styles */
+body{
+  margin:0 ;
+}
+
+
+/* styles header */
+header{
+  background:linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Banner Image.png');
+
+   background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.header-title{
+  color:#FFFFFF;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.header-subtitle{
+  color:#FFFFFF;
+  font-size: 65px;
+  width:600px;
+  height: 150px;
+  margin-top: 8px;
+
+  text-align: center;
+}
