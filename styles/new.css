@@ -15,7 +15,7 @@ header{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  
 }
 .header-title{
   color:#FFFFFF;
@@ -31,3 +31,21 @@ header{
 
   text-align: center;
 }
+/* new year styles */
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section>div>h1{
+  font-size: 45px;
+  color:#FF0000;
+}
+.newyear-img{
+  border-style:dashed;
+  border-width: 1px;
+}
+
